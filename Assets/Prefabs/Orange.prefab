@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8886841856865538642}
   m_Layer: 0
-  m_Name: Watermelon
+  m_Name: Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1864403539295190249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.15999985, z: 7.49}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1.35}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7029504465083913968}
@@ -96,8 +96,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69c8ddccf29832340a9e6e0bf6c363d2, type: 2}
-  - {fileID: 2100000, guid: 37e70c474dd2bd04db2ba2921b90b622, type: 2}
+  - {fileID: 2100000, guid: 3f7a6b555a33db3478f525fa549e8079, type: 2}
+  - {fileID: 2100000, guid: 7ce0036e8a242944a838208d163d5898, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -244,7 +244,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69c8ddccf29832340a9e6e0bf6c363d2, type: 2}
+  - {fileID: 2100000, guid: 3f7a6b555a33db3478f525fa549e8079, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -358,8 +358,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69c8ddccf29832340a9e6e0bf6c363d2, type: 2}
-  - {fileID: 2100000, guid: 37e70c474dd2bd04db2ba2921b90b622, type: 2}
+  - {fileID: 2100000, guid: 3f7a6b555a33db3478f525fa549e8079, type: 2}
+  - {fileID: 2100000, guid: 7ce0036e8a242944a838208d163d5898, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
