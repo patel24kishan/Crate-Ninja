@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Blade : MonoBehaviour
 {
+    public float slideForce = 5f;
+
     private Camera mainCamera; 
     private Collider bladeCollider;
     private TrailRenderer bladeTrail;
@@ -28,6 +30,7 @@ public class Blade : MonoBehaviour
         bladeCollider =GetComponent<Collider>();
         bladeTrail=GetComponentInChildren<TrailRenderer>();
     }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -53,6 +56,7 @@ public class Blade : MonoBehaviour
         bladeCollider.enabled= true;
         bladeTrail.Clear();
     }
+
     private void StopSlicing()
     {
         slicing= false;

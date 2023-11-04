@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 1519903337}
   m_Layer: 0
   m_Name: Blade
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,6 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02fe676e491f2484180b20a197dca883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slideForce: 25
   minBladeVelocity: 0.01
 --- !u!135 &1519903338
 SphereCollider:
@@ -652,7 +653,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1519903339
 Transform:
