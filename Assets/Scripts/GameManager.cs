@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public Image fadeImage;
+
+   
     
     public Blade blade;
     public Spawner spawner;
@@ -27,7 +29,6 @@ public class GameManager : MonoBehaviour
 
         blade.enabled = true;
         spawner.enabled = true;
-        fadeImage.enabled = false;
 
         score = 0;
         scoreText.text = score.ToString();
@@ -68,7 +69,6 @@ public class GameManager : MonoBehaviour
     {
         blade.enabled= false;
         spawner.enabled=false;
-        fadeImage.enabled = true;
 
         StartCoroutine(ExplodeSequence());
     }
